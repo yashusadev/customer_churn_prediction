@@ -24,19 +24,24 @@ Target label: Churn (Yes/No)
 # Project Workflow
 **1. Data Exploration**
 Loaded the dataset and viewed column names and sample rows.
+
 Checked for missing or unusual values.
 
 **2. Data Cleaning**
 Dropped unnecessary columns like customerID.
+
 Fixed missing values in TotalCharges by converting to numeric.
+
 Converted Churn and other categorical columns to numerical values using LabelEncoder.
 
 **3. Exploratory Data Analysis (EDA)**
 Visualized distributions of important features using histograms and countplots.
+
 Identified patterns like customers with month-to-month contracts being more likely to churn.
 
 **4. Feature Selection and Preprocessing**
 Selected important features for model training.
+
 Encoded categorical features and scaled the data using StandardScaler.
 
 **5. Model Building**
